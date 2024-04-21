@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#2D3250]">
+    <!--Nav bar-->
+    <nav class="p-4 shadow-lg shadow-black rounded-b-3xl fixed w-full bg-gradient-to-r from-[#7077A1] via-[#424769] to-[#F6B17A] transition-all duration-300">
+        <!--Desktop view-->
+        <div class="hidden md:flex space-x-10 items-center">
+            <p class="text-3xl font-bold">My Portfolio</p>
+            <div class="flex space-x-6 font-semibold text-xl">
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#">Home</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#skills">Skills</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#projects">Projects</a>
+                 <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#hobbies">Hobbies</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#">Qualifications</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                active:text-white" href="#">Personal Details</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                 active:text-white" href="#">Contact</a>
+                <a class="hover:-translate-y-2/4 hover:scale-125 transition-all duration-300 active:scale-75 hover:text-white
+                active:text-white" href="#">Resume</a>
+            </div>
+        </div>
+        <!--Mobile view-->
+        <div class="mobile-nav grid space-y-5 items-center md:hidden">
+            <div class="flex justify-between items-center">
+                <p class="text-3xl font-bold">My Portfolio</p>
+                <button class="toggler">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hover:border-2 border-black rounded-md">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>                      
+                </button>
+            </div>
+            <div class="menu grid space-y-3 font-semibold text-xl">
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#">Home</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#skills">Skills</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#projects">Projects</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#hobbies">Hobbies</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#">Qualifications</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#">Personal Details</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#">Contact</a>
+                <a class="transition-all duration-300 hover:text-white active:text-white" href="#">Resume</a>
+            </div>
+        </div>
+    </nav>
+    <div class="grid lg:grid-cols-2 grid-cols-1 lg:pt-32 pt-20 gap-2">
+        <div class="grid items-center justify-center pt-10 pb-10 text-center">
+            <p class="text-[#7077A1] text-3xl">Hello,</p>
+            <p class="text-[#ffff] text-2xl">Myself,</p> 
+            <p class="text-[#F6B17A] text-6xl font-extrabold" style="font-family: cursive;">Sai Charan Uvaraj</p>
+            <p class="text-[#ffff]  font-bold text-5xl">Aspiring Full Stack Developer</p>
+        </div>
+        <div class="lg:flex items-center justify-center grid gap-2 lg:gap-2">
+            <img src="images/profile1.jpg" class="lg:w-40 lg:h-40 h-80 w-80 rounded-full  border-8 border-solid border-[#F6B17A]">
+            <img src="images/profile4.jpg" class="lg:w-50 lg:h-50 h-80 w-80 rounded-full  border-8 border-solid border-[#F6B17A]">
+            <img src="images/profile2.jpg" class="lg:w-40 lg:h-40 h-80 w-80 rounded-full  border-8 border-solid border-[#F6B17A]">
+        </div>
+    </div>
+
+    <!-- About me -->
+    <p class="text-5xl font-bold text-[#F6B17A] text-center md:pt-20 pt-10" style="font-family: cursive;">About me</p>
+    <p class="text-center text-lg text-[#ffff] p-2 md:pr-20 md:pl-20 md:pt-2">Myself a dedicated and hardworking knowledge
+        gaining student looking forward to improve myself. Has the capacity to have a good communication and coordination with others. 
+        Has experience in interactive Front end web development and still learning more and also has some knowledge about programming
+        languages like Java ,C ,Python and Back end technology. Striving hard to improve myself by non-stop life time learning.
+    </p>
+
+    <!--Skills-->
+    <p class="text-5xl font-bold text-[#F6B17A] text-center md:pt-20 pt-10" id="skills" style="font-family: cursive;">Skills</p>
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-10 md:p-10 gap-4 pr-10 pl-10 mt-2">
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                HTML5 & CSS3
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/html css.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                Java Script
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/js.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                Bootstrap
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/bootstrap.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                Tailwind CSS
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/tailwind.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                Java Programming
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/java.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                Python Programming
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/python.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl">
+                C Programming
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/c.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!--Currently learning skills-->
+    <p class="text-2xl font-bold text-[#F6B17A] text-center pt-2" style="font-family: cursive;">Currently learning skills</p>
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-10 md:p-10 gap-4 pr-10 pl-10 mt-2">
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                React JS
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/react.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Node JS
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/node.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Database Technology
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/database.jpg">
+            </div>
+        </div>
+        <div class="bg-transparent rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                AI & ML
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl justify-center items-center flex">
+                <img class="w-50 h-50 rounded-3xl mt-2 mb-2" src="images/aiml.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!--Projects-->
+    <p class="text-5xl font-bold text-[#F6B17A] text-center md:pt-20 pt-10" id="projects" style="font-family: cursive;">Projects</p>
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-10 md:p-10 gap-4 pr-10 pl-10 mt-2">
+        <div class="bg-[#7077A1] rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Bank Loan page
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl flex flex-col justify-center items-center">
+                <img class="w-96 h-48 rounded-xl mt-2 mb-2 pr-2 pl-2" src="images/bank loan.jpg">
+                <p class="text-white text-lg text-center pr-2 pl-2">A basic front-end design of a bank loan page created using bootstrap
+                    cards and navbars with beautifull card hovering effects.</p>
+                <div class="flex flex-row justify-center items-center p-2">
+                    <button class="text-lg rounded-lg text-center bg-[#F6B17A] text-black p-2 pr-6 pl-6 hover:bg-white transition-all duration-500" onclick="location.href='https://github.com/SaiCharanUvaraj/Bank-Loan-Page'">Visit</button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#7077A1] rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Bank Sign-in page
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl flex flex-col justify-center items-center">
+                <img class="w-96 h-48 rounded-xl mt-2 mb-2 pr-2 pl-2" src="images/sign in.jpg">
+                <p class="text-white text-lg text-center pr-2 pl-2">A simple responsive front-end design of a sign-in page of a bank created using native css and bootstrap cards.</p>
+                <div class="flex flex-row justify-center items-center p-2">
+                    <button class="text-lg rounded-lg text-center bg-[#F6B17A] text-black p-2 pr-6 pl-6 hover:bg-white transition-all duration-500" onclick="location.href='https://github.com/SaiCharanUvaraj/Sample-Sign-in-and-Sign-up-page'">Visit</button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#7077A1] rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Web Calculator
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl flex flex-col justify-center items-center">
+                <img class="w-96 h-48 rounded-xl mt-2 mb-2 pr-2 pl-2" src="images/calculator.jpg">
+                <p class="text-white text-lg text-center pr-2 pl-2">A front-end creative design of a calculator created using native css and  animations.</p>
+                <div class="flex flex-row justify-center items-center p-2">
+                    <button class="text-lg rounded-lg text-center bg-[#F6B17A] text-black p-2 pr-6 pl-6 hover:bg-white transition-all duration-500" onclick="location.href='https://github.com/SaiCharanUvaraj/Web-Calculator'">Visit</button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#7077A1] rounded-3xl transition-all duration-500 hover:shadow-lg hover:shadow-slate-50">
+            <div class="bg-[#424769] text-center text-[#F6B17A] p-3 text-xl font-bold rounded-t-3xl ">
+                Tic-tac-toe Game
+            </div>
+            <div class=" bg-[#7077A1] rounded-b-3xl flex flex-col justify-center items-center">
+                <img class="w-96 h-48 rounded-xl mt-2 mb-2 pr-2 pl-2" src="images/tictactoe.jpg">
+                <p class="text-white text-lg text-center pr-2 pl-2">A tic tac toe game with automatic playing bot opponents created using a python module called pygame</p>
+                <div class="flex flex-row justify-center items-center p-2">
+                    <button class="text-lg rounded-lg text-center bg-[#F6B17A] text-black p-2 pr-6 pl-6 hover:bg-white transition-all duration-500" onclick="location.href='https://github.com/SaiCharanUvaraj/Tic-tac-toe-game'">Visit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-row justify-center items-center p-2">
+        <button class="text-xl rounded-lg text-center bg-[#F6B17A] text-black p-2 hover:bg-white transition-all duration-500" onclick="location.href='https://github.com/SaiCharanUvaraj'">My Github Profile</button>
+    </div>
+
+    <!--Hobbies-->
+    <p class="text-5xl font-bold text-[#F6B17A] text-center md:pt-20 pt-10" id="hobbies" style="font-family: cursive;">Hobbies</p>
+    <div class="grid grid-cols-1">
+        <div class="flex md:flex-row flex-col items-center justify-center md:space-x-5 space-y-2 md:p-5 p-2">
+            <div class="flex flex-col items-center justify-center">
+                <p class="text-4xl text-white text-center" style="font-family: cursive;">My Instagram public account for posting reels related to web design</p>
+                <div class="flex flex-row justify-center items-center p-2">
+                    <button class="text-lg rounded-lg text-center bg-[#F6B17A] text-black p-2 pr-6 pl-6 hover:bg-white transition-all duration-500" onclick="location.href='https://www.instagram.com/sai_charan_uvaraj/'">Visit</button>
+                </div>
+            </div>
+            <img class="rounded-lg" src="images/insta.jpg">
+        </div>
+        <div class="flex md:flex-row-reverse flex-col items-center justify-center md:space-x-5 space-y-2 md:p-5 p-2 mt-2">
+            <div class="flex flex-col items-center justify-center">
+                <p class="text-4xl text-white text-center" style="font-family: cursive;">An intermediate level chess player</p>
+            </div>
+            <img class="rounded-lg" src="images/chess.jpg">
+        </div>
+    </div>
+</body>
+<script>
+    const button=document.querySelector("button.toggler");
+    const menu=document.querySelector(".menu");
+    menu.classList.add("hidden");
+    button.addEventListener("click",()=>
+    {
+        menu.classList.toggle("hidden");
+    });
+</script>
+</html>
